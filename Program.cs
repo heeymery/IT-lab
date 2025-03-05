@@ -15,5 +15,12 @@
         {
             Console.WriteLine("eded sifirdir.");
         }
+        int a, b, c, sum;
+        Console.WriteLine("Ededleri daxil edin:");
+        a = int.Parse(Console.ReadLine());
+        b = int.Parse(Console.ReadLine());
+        c = int.Parse(Console.ReadLine());
+        sum = a + b + c; 
+        Console.WriteLine("Cəm: " + sum);
     }
 }
